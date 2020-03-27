@@ -23,7 +23,7 @@ function Coordinate() {
 function forecaster(latLon) {
 
     const wxKey = '0eab6e3837ad474491b152802202103';
-    const wxURL = `http://api.worldweatheronline.com/premium/v1/weather.ashx?key=${wxKey}&q=${latLon}&num_of_days=3&format=json`;
+    const wxURL = `https://api.worldweatheronline.com/premium/v1/weather.ashx?key=${wxKey}&q=${latLon}&num_of_days=3&format=json`;
        
     axios.get(wxURL)
         .then(function(response) {
