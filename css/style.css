@@ -975,6 +975,9 @@ input:-webkit-autofill {
     color:#000 !important;
 }
 
+
+/*  Will use this if I can record a walkthrough for projects
+
 .popup-youtube {
     position: relative;
 }
@@ -991,21 +994,26 @@ input:-webkit-autofill {
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
+} */
+
+
+
+/*------------------------ 5 Recommendations ------------------------*/
+
+.recs {
+    display: flex;
+    justify-content: space-between;
 }
 
-
-
-/*------------------------ 5 Blog ------------------------*/
-
-.blog-image img{
-    width: 100%;
+.recContent{
+    background-image: url("/images/blog-7.png");
+    /* margin-bottom:60px; */
+    color:#fff;
+    padding: 10px;
+    margin-left: 15px;
 }
 
-.blog-content{
-    margin-bottom:60px;
-}
-
-.blog h1{
+.recommendations h1{
     font-size: 20px;
     line-height: 24px;
     margin: 25px 0 13px 0;
@@ -1013,18 +1021,14 @@ input:-webkit-autofill {
     font-family: 'Montserrat', sans-serif;
 }
 
-.blog-info{
+.recName{
     font-size: 12px;
-    font-weight: 400;
-    color: #b9b9b9;
+    font-weight: bold;
+    color: #FFF;
     margin-top: 20px;
     display: inline-block;
 }
-
-.blog .site-button{
-    margin:0 auto 60px;
-    display: table;
-}
+/* 
 
 .blog-single h1 {
      font-size: 22px;
@@ -1141,7 +1145,7 @@ ul.post-comment li p {
 
 .send-message .subtitle{
     margin-bottom:30px;
-}
+} */
 
 
 
