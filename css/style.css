@@ -1005,6 +1005,15 @@ input:-webkit-autofill {
     justify-content: space-between;
 }
 
+.interviewLine {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
 .recContent{
     background-image: url("/images/blog-9.png");
     /* margin-bottom:60px; */
