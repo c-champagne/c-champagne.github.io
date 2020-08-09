@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Budget Tracker</title>
+<title>Closet Wizard</title>
 <meta charset="UTF-8">
 <meta name="description" content="Stephens Portfolio Template">
 <meta name="keywords" content="personal, portfolio">
@@ -62,35 +62,41 @@
         <div class="row">
             <div class="blog-single col-md-8 col-md-offset-2">
                 <div class="blog-image">
-                    <img src="images/budgetSS.PNG" alt="Budget Tracker">
+                    <img src="images/closet.png" alt="Closet Wizard">
                 </div>  
-                <h1>Budget Tracker</h1>
-                <div class="blog-detail">Created <span>May 2020</span></div>
+                <h1>Closet Wizard</h1>
+                <div class="blog-detail">Created <span>July 2020</span></div>
                 
                 <div class="blog-content">
                     
-                    <span class="subtitle">Trying to get a handle on your spending?</span>
+                 <span class="subtitle">What to wear, what to wear...</span>
                   <br/>  
-                    <p>Budget Tracker is a web app designed to help the user track and manage their expenses and bills by displaying their weekly and monthly spending habits. </p>
-
-                    <p>Users can create an account and login to their dashboard using OAuth 2.0 through Google. They will be able to enter their weekly expenses and monthly bills.
-                    <br/>The app will create a pie graph breakdown of their spending habits and they will get a visual display of their budget.</p>
-                    <a href="https://budget-tracker-node.herokuapp.com/login" target="_blank">View Project</a>
-                    <br/><a href="https://github.com/c-champagne/Full-Stack-Financial-Tracker" target="_blank">View this Project on Github</a>
-
+                    <p>This app makes it easier for you to start your day by putting your entire closet at your fingertips. With just a few clicks, you can figure out what to wear before you even get out of bed.</p>
+                        <br>
+                        <p>You can also use the outfit creation feature to pre-plan outfits for the week or special occasions. You can also save images from online stores to help you visualize how that new shirt might work with your existing wardrobe. </p>
+                        <br>
+                        <p>Closet Wizard was built with Node.js and Express. It utilizes EJS for HTML rendering and Bulma for CSS. <br>
+                        Users can log-in via Google, which was made possible through the use of Passport.js. Users must be logged in to access the closet page or they will be redirected to the index. Once a user has logged-in, their email is stored in the users table of the database and they are assigned a unique user ID. If this is a user's first time logging-in, they will be redirected to the "New User" page and asked to enter a display name.</p>
+                        <br>
+                        <p>Users can upload images using the Clothing Upload Form at the top of the closet page. File uploading is managed using Filestack and the Filestack Picker. Once a user uploads an image, Filestack returns a handle that is stored in a hidden input field in the form. When the user submits the form, the data is stored in the clothing table of the database. Queries in the Express routes locate the data based on the current user's ID and displays it on the page via EJS.</p>
+                        <br>
+                        <p>To create an outfit, users can click on the Launch Outfit Creator button and the Outfit Creation Form will display in a modal. All of the user's uploaded images will be listed and sorted by type of clothing. Users can select one top/full body item, one bottom item, and one pair of shoes. Once the user names the outfit and submits the form, this data is stored in the outfits table of the database.</p>
+                </br>
+                <a href="https://closet-wizard.herokuapp.com/" target="_blank">View Project</a>
+                    <br/><a href="https://github.com/c-champagne/closet-wizard" target="_blank">View this Project on Github</a>
                 <!-- Lightbox images -->   
                 <div class="post-lightbox row">
                     <a href="/cds.html" class="col-md-4 col-sm-4 col-xs-6 lightbox-image">
                         <img src="images/work-1.jpg" alt="">
+                    </a>
+                    <a href="/budgettracker.html" class="col-md-4 col-sm-4 col-xs-6 lightbox-image">
+                        <img src="images/work-2.jpg" alt="">
                     </a>
                     <a href="/herovillain.html" class="col-md-4 col-sm-4 col-xs-6 lightbox-image">
                         <img src="images/work-3.jpg" alt="">
                     </a>
                     <a href="/mystery.html" class="col-md-4 col-sm-4 col-xs-6 lightbox-image">
                         <img src="images/work-3o.jpg" alt="">
-                    </a>
-                    <a href="/closet.html" class="col-md-4 col-sm-4 col-xs-6 lightbox-image">
-                        <img src="images/work4.jpg" alt="">
                     </a>
                 </div>
                 
