@@ -2,11 +2,6 @@
 /* Css Styles                        */
 /*---------------------------------- */
 
-/**
-	Stephens - Portfolio Template 
-	Author : TavillaThemes
-	Copyright 2016
-
 /* Table of Content
 ==================================================
 	
@@ -140,6 +135,12 @@ input:-webkit-autofill {
    font-weight: bold;
    letter-spacing: -3px;
    margin-bottom: 20px;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: #b62345;
+  --bs-tooltip-color: #FFF;
+  font-size:x-small;
 }
 
 
@@ -806,7 +807,7 @@ input:-webkit-autofill {
  } 
 
 .about-image img{
-    width: 40%;
+    width: 100%;
     border-radius: 10px;
  }   
 
