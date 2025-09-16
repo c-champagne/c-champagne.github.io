@@ -130,8 +130,8 @@ $('.responsive').on('click', function (e) {
     
     // HOME TYPED JS
       $(".element").typed({
-        strings: ["Cassie Champagne", "a Web Developer"],
-        typeSpeed: 50,
+        strings: [" writer...", " troubleshooter...", "n engineer..."],
+        typeSpeed: 100,
         loop:true,
         backDelay: 2000
       });
@@ -238,3 +238,6 @@ $('.responsive').on('click', function (e) {
     });
    
 })(jQuery);
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
