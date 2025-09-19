@@ -887,7 +887,6 @@ input:-webkit-autofill {
 
 
 .gray-bg{
-    margin-top: 90px;
     background: #f5f5f5; 
 }
 
@@ -896,7 +895,7 @@ input:-webkit-autofill {
 }
 
 .what-can{
-    padding: 90px 0;
+    padding: 40px 0;
 }
 
 .what-can .feature{
@@ -1281,9 +1280,7 @@ a.site-button{
         margin-top: 30px;
     }
     
-    .gray-bg {
-        margin-top: 30px;
-    }
+    
     
     .what-can {
         padding: 45px 0;
@@ -1350,7 +1347,13 @@ a.site-button{
     z-index: -1;
 }
 
+.fa { 
+  transition:.5s;
+}
 
+.fa:hover {
+transform:scale(1.5);
+}
 
 
 
