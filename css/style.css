@@ -14,8 +14,15 @@
 	7. Slider & Video Home
 
 
-/*------------------------ 1 Body and Core Css ------------------------*/		
+/*------------------------ 1 Body and Core Css ------------------------*/
 
+.card.quotes {
+    border-color: #b62345 ;
+}
+
+.card.quotes p {
+    color: #b62345 ;
+}
 body{
 	font-family: 'Montserrat', sans-serif;
 }
