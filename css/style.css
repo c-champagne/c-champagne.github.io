@@ -1157,6 +1157,14 @@ input:-webkit-autofill {
     line-height: 20px;
 }
 
+.email-link {
+    color: #B62345
+}
+
+.email-link:hover {
+    color: #79182f
+}
+
 .section-title p{
     margin-top:20px;
 }
