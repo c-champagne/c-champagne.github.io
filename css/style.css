@@ -935,6 +935,9 @@ input:-webkit-autofill {
 
 /*------------------------ 4 Portfolio ------------------------*/	
 
+.project-image {
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.5);
+}
 
 .section-title{
     text-align: center;
@@ -1157,11 +1160,11 @@ input:-webkit-autofill {
     line-height: 20px;
 }
 
-.email-link {
+.prim-link {
     color: #B62345
 }
 
-.email-link:hover {
+.prim-link:hover {
     color: #79182f
 }
 
