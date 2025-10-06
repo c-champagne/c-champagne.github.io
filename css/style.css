@@ -930,6 +930,13 @@ input:-webkit-autofill {
     height: 407px;
 }
 
+.about-list ul, li {
+    font-size: 13px;
+    color: #777777;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
 .out {
     display: table-cell;
     vertical-align: middle;
@@ -1187,7 +1194,7 @@ input:-webkit-autofill {
 .blockquote-footer {
     margin-top: 1rem;
     margin-bottom: 0rem;
-    color: #1a1717;
+    color: #534e4e;
     font-weight: bold;
 }
 
